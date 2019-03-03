@@ -1,0 +1,12 @@
+#image-2, #image-4 {
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#header {
+    background-color: lightcoral;
+    height: 80px;
+    font-size: 40px;
+    
+}

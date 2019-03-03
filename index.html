@@ -5,44 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div>
-        <h1>Crystal Collector!</h1>
-    </div>
-
-    <section>
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-        <p>The value of each crystal is hidden from you unitl you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal</p>
-    </section>
-
-    <div>
-        <div>
-            <h1 id="randomNumber">0</h1>
+    <div class="container">
+        <div class="row text-center text-white pt-3" id="header">
+            <div class="col-md-12">
+                <h1>Crystal Collector!</h1>
+            </div>
         </div>
-        <div>
-            <p>Wins: <span id="wins">0</span></p>
-            <p>Losses: <span id="losses">0</span></p>
+    
+
+        <div class="row">
+            <div class="col-md-12">
+            <p>You will be given a random number at the start of the game.
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                The value of each crystal is hidden from you unitl you click on it.
+                Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
+         </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h1 id="randomNumber"></h1>
+            </div>
+            <div class="col-md-6">
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
+            </div>
         </div>
-    </div>
 
-    <div>
-        <img class="crystalImages" id="image-1" src="assets/images/purpleCrystal.jpg">
-        <img class="crystalImages" id="image-2" src="assets/images/greenCrystal.jpg">
-        <img class="crystalImages" id="image-3" src="assets/images/redCrystal.jpg">
-        <img class="crystalImages" id="image-4" src="assets/images/pinkCrystal.jpg">
-    </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img class="crystalImages" id="image-1" src="assets/images/purpleCrystal.jpg">
+            </div>  
+            <div class="col-md-3">
+                <img class="crystalImages" id="image-2" src="assets/images/greenCrystal.jpg">
+            </div>
+            <div class="col-md-3">
+                <img class="crystalImages" id="image-3" src="assets/images/redCrystal.jpg">
+            </div>
+            <div class="col-md-3">
+                <img class="crystalImages" id="image-4" src="assets/images/pinkCrystal.jpg">
+            </div>
 
-    <div>
-        <p>Your total score is:</p>
-        <p id="counter">0</p>
-    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Your total score is:</p>
+                <p id="counter">0</p>
+            </div>
+        </div>
 
+    </div>
     
     <script src="assets/javascript/game.js"></script>
 </body>
