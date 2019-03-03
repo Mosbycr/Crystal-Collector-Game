@@ -10,3 +10,12 @@
     font-size: 40px;
     
 }
+
+#gameInfo {
+    height: 100px;
+    background-color: lightcyan;
+}
+
+#numberAndScore {
+    height: 100px;
+}
