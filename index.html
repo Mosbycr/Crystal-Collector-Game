@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container-flex mx-auto">
+    <div class="container-flex">
         <div class="row text-center text-white pt-3" id="header">
             <div class="col-md-12 pt-5">
                 <h1>Crystal Collector!</h1>
@@ -28,21 +28,23 @@
             </div>
         </div>
 
-        <div class="row text-center text-white border" id="numberAndScore">
+        <div class="row text-center text-white border py-5" id="numberAndScore">
             <div class="col-md-4 align-self-center">
-                <h1 id="randomNumber">0</h1>
+                <h1 id="randomNumber"></h1>
             </div>
             <div class="col-md-4 text-center text-white align-self-center">
                 <p>Your total score is:</p>
+                <br>
                 <p id="counter">0</p>
             </div>
             <div class="col-md-4 align-self-center">
                 <p>Wins: <span id="wins">0</span></p>
+                <br>
                 <p>Losses: <span id="losses">0</span></p>
             </div>
         </div>
 
-        <div class="row text-center border-bottom" id="imageSection">
+        <div class="row text-center border-bottom px-5" id="imageSection">
             <div class="col-md-3 align-self-center">
                 <img class="crystalImages" id="image-1" src="assets/images/purpleCrystal.jpg">
             </div>  
@@ -50,14 +52,14 @@
                 <img class="crystalImages" id="image-2" src="assets/images/greenCrystal.jpg">
             </div>
             <div class="col-md-3 align-self-center">
-                <img class="crystalImages" id="image-3" src="assets/images/redCrystal.jpg">
+                <img class="crystalImages" id="image-3" src="assets/images/redCrystal3.jpg">
             </div>
             <div class="col-md-3 align-self-center">
                 <img class="crystalImages" id="image-4" src="assets/images/pinkCrystal.jpg">
             </div>
 
     </div>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>

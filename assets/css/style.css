@@ -23,8 +23,8 @@ hr {
 }
 
 #numberAndScore {
-    height: 100px;
     background-color: #a6a5e1;
+    font-size: 18px;
 }
 
 #image-2, #image-4 {
