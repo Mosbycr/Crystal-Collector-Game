@@ -1,21 +1,42 @@
+body {
+    background-color: #a6a5e1;
+}
+#header {
+    background-color: white;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../images/treasureChest.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-size: 50px;
+}
+
+hr {
+    border-bottom: 1px solid white;
+    width: 500px;
+}
+
+#gameText {
+    font-size: 18px;
+}
+
+#numberAndScore {
+    height: 100px;
+    background-color: #a6a5e1;
+}
+
 #image-2, #image-4 {
     -ms-transform: rotate(90deg); 
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-#header {
-    background-color: lightcoral;
-    height: 80px;
-    font-size: 40px;
-    
+.crystalImages {
+    border: 2px solid white;
 }
 
-#gameInfo {
-    height: 100px;
-    background-color: lightcyan;
-}
-
-#numberAndScore {
-    height: 100px;
+#imageSection {
+    background-color: #7b7aaf;
 }
