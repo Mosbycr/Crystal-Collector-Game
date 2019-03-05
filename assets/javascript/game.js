@@ -4,13 +4,11 @@ var scoreCounter = 0;
 
 var randomNumberGenerated = Math.floor(Math.random() * (102)) + 19;
 $("#randomNumber").text(randomNumberGenerated);
-console.log(randomNumberGenerated);
 
 var image1 = Math.floor(Math.random() * 12) + 1;
 var image2 = Math.floor(Math.random() * 12) + 1;
 var image3 = Math.floor(Math.random() * 12) + 1;
 var image4 = Math.floor(Math.random() * 12) + 1;
-console.log(image1, image2, image3, image4);
 
 function reset(){
     scoreCounter = 0;
@@ -67,14 +65,4 @@ $("#image-4").on("click", function () {
 
 
 
-
-
-
-
-// $(".crystalImages").on('click', function (event) {
-//     event.stopPropagation();
-//     event.stopImmediatePropagation();
-//     alert ("yess");
-
-// });  
 
