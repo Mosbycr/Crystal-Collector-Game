@@ -1,4 +1,4 @@
-# Crystal Selector Game
+# Crystal Collector Game
 This web application utilizes HTML5, CSS3, Javascript, and JQuery. 
 
 # Objective
