@@ -15,18 +15,12 @@ body {
 }
 
 #gameText {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 #numberAndScore {
     background-color: #a6a5e1;
-    font-size: 18px;
-}
-
-#image-2, #image-4 {
-    -ms-transform: rotate(90deg); 
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    font-size: 20px;
 }
 
 .crystalImages {
@@ -35,4 +29,9 @@ body {
 
 #imageSection {
     background-color: #7b7aaf;
+    border: 1px solid white;
+}
+
+.fontAlice {
+    font-family: 'Alice', serif;
 }
