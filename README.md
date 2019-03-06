@@ -12,4 +12,5 @@ Allows the user to match a randomly generated number by selecting crystals with 
 * The player loses if their score goes above the randomly generated number.
 * The game restarts whenever the player wins or loses.
 # Demo
-![screenshot 1](https://user-images.githubusercontent.com/46547100/53773296-cd8cba00-3eb7-11e9-9c02-37672acb0cef.png)
+![2019-03-06 1](https://user-images.githubusercontent.com/46547100/53903125-e361c280-4010-11e9-8afd-d8a0c03ac951.png)
+
